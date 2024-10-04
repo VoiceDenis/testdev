@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders hi button', () => {
   render(<App />);
-  const linkElement = screen.getByAltText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const buttonElement = screen.getByText(/hi/i); // Replace with actual button text
+  expect(buttonElement).toBeInTheDocument();
 });
