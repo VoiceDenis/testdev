@@ -31,8 +31,7 @@ jobs:
     - run: npm test
 
     - name: Deploy with gh-pages
-      uses: VoiceDenis/github-pages-deploy-action@4.0.0
-     run: |
+      run: |
        git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
        npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
     env:
