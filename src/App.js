@@ -1,10 +1,12 @@
-import { Button } from '@mui/material';
-import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import BasicButtons from './component/button';
 
 function App() {
   return (
-    <div>
-      <Button>Hi</Button>
+    <div className="App">
+      <BasicButtons value="Click Action"></BasicButtons>
+      <h1>Action</h1>
     </div>
   );
 }
