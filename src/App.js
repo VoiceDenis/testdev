@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <BasicButtons value="Click Action"></BasicButtons>
       <h1>Action</h1>
+      <h1>Action Button</h1>
+      <h1>Test with Rubin</h1>
     </div>
   );
 }
